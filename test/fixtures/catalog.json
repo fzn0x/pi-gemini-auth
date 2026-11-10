@@ -1,0 +1,339 @@
+{
+ "models": {
+  "gemini-3-flash": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 4000,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.6-flash-high": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 10000,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.6-flash-medium": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 4000,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.6-flash-low": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 1000,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.6-flash-tiered": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.7-flash-tiered": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.8-flash-high": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "minThinkingBudget": 32,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   },
+   "displayName": "Gemini 3.8 Flash (High)"
+  },
+  "gemini-3.8-flash-medium": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "minThinkingBudget": 32,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.8-flash-low": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "minThinkingBudget": 32,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.1-pro-low": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 1001,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.1-pro-high": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 10001,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-sonnet-4-6": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 64000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 0.4,
+    "resetTime": "2026-11-10T15:00:00Z"
+   }
+  },
+  "claude-opus-4-6-thinking": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 64000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gpt-oss-120b-medium": {
+   "maxTokens": 131072,
+   "maxOutputTokens": 32768,
+   "supportsThinking": true,
+   "supportsImages": false,
+   "thinkingBudget": 8192,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-opus-5-5-low": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-2.5-pro": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 1024,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.1-flash-image": {
+   "maxTokens": 65536,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 24576,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-2.5-flash-lite": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 24576,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.8-flash-tiered": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65536,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": -1,
+   "minThinkingBudget": 32,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-3.1-flash-lite": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 24576,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-2.5-flash": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 24576,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-sonnet-5-5-low": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-opus-5-5-medium": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-sonnet-5-5-high": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-opus-5-5-high": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "claude-sonnet-5-5-medium": {
+   "maxTokens": 1000000,
+   "maxOutputTokens": 128000,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 32768,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "gemini-2.5-flash-thinking": {
+   "maxTokens": 1048576,
+   "maxOutputTokens": 65535,
+   "supportsThinking": true,
+   "supportsImages": true,
+   "thinkingBudget": 24576,
+   "minThinkingBudget": 128,
+   "quotaInfo": {
+    "remainingFraction": 1,
+    "resetTime": "2026-11-10T12:00:00Z"
+   }
+  },
+  "chat_20706": {
+   "maxTokens": 1000
+  },
+  "tab_flash_lite_preview": {
+   "maxTokens": 1000
+  },
+  "gemini-3.5-flash": {
+   "maxTokens": 1000
+  },
+  "gemini": {
+   "quotaInfo": {
+    "remainingFraction": 1
+   }
+  }
+ },
+ "defaultAgentModelId": "gemini-3.8-flash-medium"
+}
