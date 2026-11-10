@@ -1,0 +1,48 @@
+{
+  "name": "pi-gemini-auth",
+  "version": "0.0.1",
+  "description": "A small local rotator that serves your Google Antigravity accounts to the Pi coding agent over an OpenAI-compatible API.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzn0x/pi-gemini-auth.git"
+  },
+  "homepage": "https://github.com/fzn0x/pi-gemini-auth#readme",
+  "bugs": {
+    "url": "https://github.com/fzn0x/pi-gemini-auth/issues"
+  },
+  "type": "module",
+  "bin": {
+    "pi-gemini-auth": "bin/pi-gemini-auth.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"test/*.test.ts\"",
+    "check": "npm run typecheck && npm test",
+    "prepack": "npm run build",
+    "prepublishOnly": "npm run check"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [
+    "pi",
+    "pi-agent",
+    "gemini",
+    "antigravity",
+    "rotator",
+    "openai-compatible",
+    "proxy"
+  ]
+}
